@@ -42,8 +42,8 @@ class NextLaunchItem extends StatelessWidget {
               child: Text(
                 'keep following the next launch',
                 style: Theme.of(context).textTheme.headline6!.copyWith(
-                  color: HexColor(black),
-                ),
+                      color: HexColor(black),
+                    ),
               ),
             ),
             Expanded(
@@ -54,7 +54,10 @@ class NextLaunchItem extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16.0,vertical: 8.0,),
+              padding: const EdgeInsets.symmetric(
+                horizontal: 16.0,
+                vertical: 8.0,
+              ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
